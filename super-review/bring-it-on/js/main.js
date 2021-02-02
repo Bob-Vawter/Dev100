@@ -1,6 +1,7 @@
 // *Variables*
 // Create a variable and console log the value
-
+var num1 = 10
+console.log(num1)
 // Create a variable, add 10 to it, and alert the value
 
 // *Functions*
