@@ -1,0 +1,132 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+.navLinks a{
+  margin-right: 20px;
+}
+
+/* .logo img{
+  padding: 0 auto;
+} */
+
+nav > section {
+  color: blue;
+  float: left;
+  width: 33.3333%;
+}
+
+nav > section > div, nav > section > form {
+  float: left;
+}
+
+nav > section > div {
+  padding-left: 30%;
+}
+
+nav a{
+  color: blue;
+  text-decoration: none;
+}
+
+
+.main > section {
+  float: left;
+  width: 50%;
+  margin-top: 100px;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  overflow: hidden;
+}
+
+footer {
+
+}
+
+.left {
+  width: 80%;
+}
+
+.innerFloat{
+  width: 75%;
+  float:right;
+}
+
+.right {
+  padding-right: 50px;
+}
+
+.right a {
+  text-decoration: none;
+  border: 1px solid blue;
+  background: blue;
+  color: white;
+  margin-right: 30px;
+  padding: 5px 10px;
+  border-radius: 15%;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
+/* menu */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+@media screen and (max-width:950px){
+
+  .main .left{
+    display: none;
+  }
+  .main .right{
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding-left: 30px;
+  }
+
+}

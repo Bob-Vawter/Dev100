@@ -1,0 +1,183 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  /* oswald 300,400,500 */
+  font-family: 'Oswald', sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.container{
+  display: flex;
+  /* align-items: stretch; */
+}
+
+.navList li{
+  margin-left: 20px;
+  list-style: none;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+/* .navImg {
+margin: 0 auto;
+} */
+.navDonate {
+  /* text-align: right; */
+  width: 200px;
+  text-align: right;
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-right: 50px;
+}
+
+header {
+  overflow: hidden;
+  background-color: #66768A;
+  color: #DBDFE2;
+}
+header section + section{
+  text-align: center;
+  margin: 100px 200px;
+}
+header a,footer a{
+  color: #DBDFE2;
+  text-decoration: none;
+}
+footer {
+  background-color: #161F2A;
+  color: #DBDFE2;
+}
+
+.middle a, .outside a {
+  text-decoration: none;
+  color: #161F2A;
+  border: 1px solid #161F2A;
+  border-radius: 10%;
+  /* margin-top: 30px; */
+  padding: 5px 15px;
+}
+
+.middle a:hover,
+.outside a:hover{
+ color: blue;
+ border-color: blue;
+}
+
+.outside p, .middle p{
+  margin: 20px 0 40px 0;
+}
+
+.middle {
+  width: 100%;
+  overflow: hidden;
+  background-color: #DBDFE2;
+  color: #161F2A;
+  text-align: center;
+}
+.middle section {
+  float: left;
+  width: 40%;
+  margin: 100px 5%;
+}
+
+.middle aside {
+  width: 50%;
+  height: 150px;
+  margin: 0 auto;
+  background-color: #66768A;
+}
+
+.outside {
+  text-align: center;
+  color: #161F2A;
+  margin: 100px 30%;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+footer li {
+  list-style: none;
+  margin-left: -15px;
+  /* margin-right: 50px; */
+}
+
+.container {
+  justify-content: space-between;
+}
+
+footer span {
+  margin-left: 25px;
+  color: #66768A;
+}
+
+.address {
+  margin-right: 25px;
+}
+
+footer {
+  overflow: hidden;
+}
+
+footer > div + div{
+  margin: 40px 25px;
+  border-top: 2px solid #DBDFE2;
+  padding-top: 10px;
+}
+
+
+
+/* social media buttons */
+
+.fa {
+  padding-top: 1px;
+  font-size: 20px;
+  width: 22px;
+  height: 22px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10%;
+  margin-right: 10px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #DBDFE2;
+  color: #161F2A;
+}
+
+.fa-twitter {
+  color: #DBDFE2;
+}
+
+.fa-linkedin {
+  color: #DBDFE2;
+}

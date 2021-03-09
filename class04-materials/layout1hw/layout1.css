@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+header, footer {
+  border: 1px solid black;
+  clear: both;
+  height: 100px;
+}
+
+.col1-3 {
+  float: left;
+  width: 33.33%;
+  border: 1px solid black;
+  height: 150px;
+}
+
+.col1-2 {
+float: left;
+width: 50%;
+border: 1px solid black;
+height: 200px;
+}

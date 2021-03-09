@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: teal;
+}
+
+header {
+  border: 2px solid gray;
+  text-align: center;
+  background-color: lightgray;
+  height: 100px
+}
+
+footer {
+  position: relative;
+  top: -100px;
+  margin: auto;
+  max-width: 500px;
+  clear: both;
+  height: 50px;
+  border: 1px solid gray;
+  background-color: white;
+}
+
+.split {
+  float: left;
+  width: 50%;
+  height: 150px;
+  border: 1px solid gray;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  border: 1px solid gray;
+  text-align: center;
+  background-color: purple;
+  color: white;
+}

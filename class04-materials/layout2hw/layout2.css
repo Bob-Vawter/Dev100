@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+header,
+footer {
+  height: 75px;
+  border: 1px solid grey;
+  clear: both;
+}
+body header + section{
+  height: 120px;
+  border: 1px solid grey;
+  clear: both;
+}
+
+.forty{
+  height: 150px;
+  width: 40%;
+  border: 1px solid grey;
+  float: left;
+}
+.sixty{
+  height: 150px;
+  width: 60%;
+  border: 1px solid grey;
+  float: left;
+}

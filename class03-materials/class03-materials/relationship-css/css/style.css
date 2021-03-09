@@ -1,0 +1,15 @@
+section > h2{
+  color: purple;
+  font-size: 50px;
+}
+
+
+section > article > h2{
+  color: red;
+  font-size: 50px;
+}
+
+article > h2{
+  color: orange;
+  font-size: 100px;
+}

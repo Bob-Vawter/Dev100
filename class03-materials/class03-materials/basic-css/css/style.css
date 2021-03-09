@@ -1,0 +1,30 @@
+h1 {
+  color: blue;
+  background-color: #FFD700;
+  text-decoration: underline;
+}
+
+h2 {
+  color: purple;
+  font-weight: bold;
+  font-size: 25px;
+  border: 3px solid orange;
+
+}
+
+p {
+  width: 50%;
+  height: 200px;
+  background-color: grey;
+  border: 3px solid black;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+footer h3{
+  background-color: black;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  border: 3px solid #90EE90;
+}

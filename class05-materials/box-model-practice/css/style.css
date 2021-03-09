@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 30px;
+  padding-left: 50px;
+  border: 1px solid red;
+}
+
+h2 {
+  font-size: 25px;
+  padding: 20px 0;
+  margin: 20px 0;
+  border: 10px solid gold;
+}
+
+span {
+  border: 1px solid black;
+  padding: 5px;
+  color: blue;
+}
+
+section {
+  width: 25%;
+  height: 200px;
+  text-align: center;
+  border: 3px solid purple;
+  margin: 0 auto;
+}

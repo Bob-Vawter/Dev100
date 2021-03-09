@@ -1,0 +1,28 @@
+
+
+header{
+  background-color: red;
+  text-align: center;
+  height: 150px;
+}
+
+.left{
+  background-color: orange;
+  float: left;
+  width: 33.33%;
+  height: 300px;
+}
+
+.middle{
+  background-color: blue;
+  float: left;
+  width: 33.33%;
+  height: 300px;
+}
+
+.right{
+  background-color: green;
+  float: left;
+  width: 33.33%;
+  height: 300px;
+}

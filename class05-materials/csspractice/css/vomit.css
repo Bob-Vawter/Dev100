@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+header,
+footer {
+  border: 2px solid grey;
+  background-color: lightgrey;
+  height: 100px;
+  clear: both;
+}
+
+section {
+  float: left;
+  width: 33.33%;
+  border: 2px solid grey;
+  background-color: lightgrey;
+  height: 400px;
+}
+
+section + section {
+  float: left;
+  width: 66.66%;
+  border: 2px solid grey;
+  background-color: lightgrey;
+  height: 200px;
+}
