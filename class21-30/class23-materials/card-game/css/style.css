@@ -1,0 +1,37 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: inline-block;
+  margin: 0 auto;
+  height: 190px;
+  width: 166px;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+body {
+  /* align-content: center;  */
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  /* width: 366px; */
+  margin: 40px 50px;
+}
+.player{
+background: white;
+width: 45%;
+height: 300px;
+}
