@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="This is where your description goes">
+	<meta name="keywords" content="one, two, three">
+
+	<title>Title in the tab</title>
+
+	<!-- external CSS link -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<label for="whatDay">What Day Is It?</label>
+	<input id="whatDay" type="text" name="" list="days">
+	<label for="whatHouse">What House Are You In?</label>
+	<input id="whatHouse" type="text" name="" list="houses">
+
+	<datalist id="days">
+		<option>Sunday</option>
+		<option>Monday</option>
+		<option>Tuesday</option>
+		<option>Wednesday</option>
+		<option>Thursday</option>
+		<option>Friday</option>
+		<option>Saturday</option>
+	</datalist>
+	<datalist id="houses">
+		<option>Turing</option>
+		<option>Hopper</option>
+		<option>Hamilton</option>
+	</datalist>
+
+	<button class="btn" type="button" name="button">Check</button>
+	<!-- <h1>Check</h1> -->
+	<br>
+	<input id="answer" type="text" name="" value="" readonly>
+
+	<p></p>
+
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
